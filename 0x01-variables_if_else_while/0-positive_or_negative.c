@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
-/*main-->assigns a random number to n when it is executed according to conditions*/
+/*main-->assigns a random number to n*/
 int main(void)
 {
 int n;
