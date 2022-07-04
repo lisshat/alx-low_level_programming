@@ -9,7 +9,12 @@
 /* betty style doc for function main goes there */
 
 int main(void)
+    
 
+
+		srand(time(0));
+
+			n = rand() - RAND_MAX / 2;
 {
 
 		int n;
@@ -27,4 +32,6 @@ int main(void)
 		{
 		   printf( " is negative/n ");
 		}
+		
+		return (0);
 }
