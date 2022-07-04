@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 
-/* main --> indicates that the main() function will not return any value*/
+/*main - Entry point*/
 int main(void)
 {
 int n;
