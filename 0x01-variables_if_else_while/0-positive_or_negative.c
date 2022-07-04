@@ -2,32 +2,19 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
+/* main --> indicates that the main() function will not return any value, but the int main() indicates that the main() can return integer type data.*/
 int main(void)
     
 {
-		int n;
+int n;
 
-
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-
-		
-		if (n > 0 )
-		{
-			printf("is positive");
-	        }
-		if (n == 0)
-                {
-			printf( " is zero");
-		}
-		if (n < 0 )
-		{
-		   printf( " is negative ");
-		}
-		return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0 )
+	printf("%d is positive/n", n );
+if (n == 0)
+  	printf( "%d is zero/n", n );
+if (n < 0 )
+	 printf( "%d is negative/n ", n );
+return (0);
 }
