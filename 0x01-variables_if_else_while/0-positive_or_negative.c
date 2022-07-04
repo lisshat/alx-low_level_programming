@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main-->assigns a random number to n
+ * main - Entry point
  */
 int main(void)
 {
