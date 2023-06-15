@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - A program that prints line with puts function
  * 
